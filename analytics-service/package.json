@@ -1,0 +1,24 @@
+{
+  "name": "@kachow-organisation/analytics-service",
+  "version": "1.0.0",
+  "description": "Analytics and metrics service for KaChow microservices",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["analytics", "metrics", "reporting", "microservices"],
+  "author": "KaChow Organisation",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.5.0",
+    "@kachow-organisation/shared-contracts": "file:../shared-contracts"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
